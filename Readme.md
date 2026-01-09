@@ -1,2 +1,2 @@
 # School
-School projectsd.
+School projects.
