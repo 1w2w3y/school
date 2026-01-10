@@ -14,9 +14,16 @@
 <body>
     <h1>Repeat 67!</h1>
     <p>This is the first paragraph.</p>
-    <div>
-        <h2>Title 67</h2>
-        <p>67 67 67 67</p>
-    </div>
+    <div id="container67"></div>
+    <script>
+        for (let i = 0; i < 50; i++) {
+            document.getElementById('container67').innerHTML += `
+                <div>
+                    <h2>Title 67</h2>
+                    <p>67 67 67 67</p>
+                </div>
+            `;
+        }
+    </script>
 </body>
 </html>
